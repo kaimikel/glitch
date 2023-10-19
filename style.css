@@ -266,7 +266,7 @@ p4 {
 }
 
 .overridewidth {
-  width:30% !important;
+  width:auto !important;
 }
 
 .contain{
