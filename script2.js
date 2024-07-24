@@ -1,14 +1,11 @@
 var swiper = new Swiper(".swiper-container", {
+  loopedSlides: 8,
   loop: true,
   slidesPerView: "auto",
   freeMode: true,
   mousewheel: {
     releaseOnEdges: true,
   },
-  scrollbar: {
-        el: '.swiper-scrollbar',
-        draggable: true,
-      }
 });
 
 var thumb = document.querySelectorAll(".thumbContainer");

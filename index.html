@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
- <link rel="icon" href="https://cdn.glitch.global/6ed29908-c0c0-4719-ac3b-d0cc6ca08d7a/favicon.ico?v=1697660922337">
+    <link rel="icon" href="https://cdn.glitch.global/6ed29908-c0c0-4719-ac3b-d0cc6ca08d7a/favicon.ico?v=1697660922337">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,15 +27,19 @@
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
 
-    
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
     <style>
       .maintitle {
         width: 100%;
-        height: 2px;
-        padding: 12px;
-        border: 10px;
+        height: 6vw;
+        padding: 1vh;
+        border: 2vw;
         text-align: center;
-        font-size: 36px;
+        font-size: 4vw;
       }
 
       .title {
@@ -49,7 +53,7 @@
       .title2 {
         width: 100%;
         height: 2px;
-        top:40px;
+        top: 40px;
         float: right;
         padding: 18px;
         border: 10px;
@@ -83,51 +87,55 @@
       p3 {
         display: block;
       }
+         p5 {
+        display: block;
+      }
+      p6 {
+        display: block;
+      }
     </style>
+
   
-    
-      <hr style = "width:60%;height : 3px; background-color:grey ;border-width:0;color:grey"/>
-      <section class="navlayout">
-        <div>
-          <a href="arch.html">
-            <p3>
-              <div class="title">WORK</div>
-            </p3>
-          </a>
-        </div>
-        <div>
-          <a href="index.html">
-            <article class="maintitle"><b>KAIMIKEL</b></article>
-          </a>
-        </div>
+    <section class="navlayout">
+      <div>
+        <a href="work.html">
+          <p5  >
+            <div class="title"> WORK    |</div>
+          </p5>
+        </a>
+      </div>
+      <div>
+        <a href="index.html">
+          <article class="maintitle"><b>KAIMIKEL</b></article>
+        </a>
+      </div>
 
-        <div>
-          <a href="contact.html">
-            <p3>
-              <div class="title2" text-align="left" >CONTACT</div>
-            </p3>
-          </a>
-        </div>
-      </section>
-      <p>
-        <br />
-      </p>
+      <div>
+        <a href="contact.html">
+          <p6>
+            <div class="title2" text-align="right">|    CONTACT </div>
+          </p6>
+        </a>
+      </div>
+    </section>
+    <p>
+      <br />
+    </p>
 
-    <hr style = "width:60%;height : 3px; background-color:grey ;border-width:0;color:grey"/>
-    
-    </head>
+  </head>
 
   <body>
    
     <p>
 
 
-      <video playsinline autoplay muted loop>
+      <video class = "videosize" playsinline autoplay muted loop>
         <source 
           src="https://cdn.glitch.me/6ed29908-c0c0-4719-ac3b-d0cc6ca08d7a/FINALVID_FOR%20WEB.mp4?v=1690237548910"
         />
       </video>
       <br />
+  
     </p>
 </body>
 </html>
