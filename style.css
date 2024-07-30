@@ -115,15 +115,20 @@ p6:hover {
 }
 .layout2 {
   width: 100%;
-  height: 200px;
+  height: 60%;
   object-fit: cover;
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 2px;
   transition: 1s ease;
   justify-content: center;
 }
+
+ model-viewer{
+         height:20vw;
+   width :100%;
+    }
 
 .navlayout {
   width: 100%;
@@ -178,6 +183,18 @@ p6:hover {
   transform: scale(1.2);
   transform: move(50%);
   transition: 1s ease;
+  position: relative;
+  z-index: 100;
+  border: 3px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+
+  -webkit-filter: brightness(100%);
+}
+
+.layout2 model-viewer:hover {
+  -webkit-transform: scale(1.5);
+  transform: move(50%);
+  transition: 1.5s ease;
   position: relative;
   z-index: 100;
   border: 3px solid rgba(255, 255, 255, 0.7);
