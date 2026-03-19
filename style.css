@@ -299,6 +299,16 @@ p6:hover {
   background: rgba(0, 0, 0, 0.5) !important;
   letter-spacing: 0.25px !important;
 }
+.overlaybottom3 {
+  top: 90%;
+  height: 6%;
+  right: 2%;
+  width: 70%;
+  font-size: 1.5vh !important;
+  font-family: "futura-pt", sans-serif;
+  background: rgba(0, 0, 0, 0.5) !important;
+  letter-spacing: 0.25px !important;
+}
 
 .swiper-slide:hover .overlay {
   opacity: 1;
